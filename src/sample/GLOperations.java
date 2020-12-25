@@ -52,7 +52,7 @@ public class GLOperations<T extends Comparable<T>> {
         }
     }
 
-    // Method to recursively creates a JavaFX tree from nodes in the code
+    // Method to recursively create a JavaFX tree from nodes in the code
     void createDisplay(Node root) {
         if (root != null) {
             CustomNode toAdd = new CustomNode(root);
